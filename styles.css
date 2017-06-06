@@ -3,7 +3,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     background-color: #6B8E23;
-    font-size: 62.5%;
+    font-size: 80%;
 }
 
 body {
@@ -15,8 +15,21 @@ body {
     margin: 8px;
 }
 
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 html {
     font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
+    -ms-text-size-adjust: 120%;
     -webkit-text-size-adjust: 100%;
 }
+
